@@ -1,0 +1,15 @@
+{
+  "name": "news-viewer",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "connect": "3.7.0",
+    "serve-static": "1.15.0"
+  }
+}
