@@ -30,8 +30,6 @@ async function sendViewsToArticle(event) {
         localStorage.setItem(`${timestamp}_viewsCount`, i);
         await fetchArticle(articleUrl, i, waitPerRequest)
     }
-
-    localStorage.setItem(`${timestamp}_viewsCount`, 0);
 }
 
 setInterval(function() {
